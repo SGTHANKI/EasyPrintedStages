@@ -3,7 +3,7 @@ A set of 3D printed open sourced motion stages for scientific and laboratory wor
 There are two different compatible stages in this ecosystem, a linear and rotary stage. A Z stage, pitch stage, and motorised stages are currently under development. You may see those in this repo but they are "alpha" versions uploaded to the master branch for collaborators to test before we fully release them. 
 
 This readme is long but includes all the instructions you need to build and assemble the stages. __IF PRINTING A LINEAR STAGE CHECK THE LEADSCREW PRINTING GUIDE FIRST FOR BEST RESULTS__.
-##Content:
+# Content:
 - Build Options for All Stages
 - Linear Stage Specific Build Options
 - Linear Stage Printing Instructions
