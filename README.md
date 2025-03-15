@@ -2,6 +2,15 @@
 A set of 3D printed open sourced motion stages for scientific and laboratory work compatible with the gridfinity standard. The latest "stable" (version printed and tested) release can be found on the printables linked below. Please consider going there and linking/downloading as it helps me out!
 There are two different compatible stages in this ecosystem, a linear and rotary stage. A Z stage, pitch stage, and motorised stages are currently under development. You may see those in this repo but they are "alpha" versions uploaded to the master branch for collaborators to test before we fully release them. 
 
+This readme is long but includes all the instructions you need to build and assemble the stages. ==IF PRINTING A LINEAR STAGE CHECK THE LEADSCREW PRINTING GUIDE FIRST FOR BEST RESULTS==.
+##Content:
+- Build Options for All Stages
+- Linear Stage Specific Build Options
+- Linear Stage Printing Instructions
+- Linear Stage Assembly Instructions
+- Rotary Stage Prtinting Instructions
+- Rotary Stage Assembly Instructions
+
 
 # Build Options for All Stages:
 The design is built to be as modular as possible and users are encouraged to download FreeCAD and export the model to 3mf files for printer directly from the CAD files instead of using those provided. Numerous mounting solutions are also provided for the stage. 
