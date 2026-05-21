@@ -10,6 +10,7 @@ This readme is long but includes all the instructions you need to build and asse
 - Linear Stage Assembly Instructions
 - Rotary Stage Prtinting Instructions
 - Rotary Stage Assembly Instructions
+- Motorised Stage Instructions
 
 
 # Build Options for All Stages:
@@ -154,6 +155,23 @@ The plate with two channels on it fits into the grooves on the front and base pa
 
 ## Step 6: (OPTIONAL) Mount to Other Stages, Gridfinity Base, Mounting Plate etc..
 ![Cover Gridfinity 4](https://github.com/user-attachments/assets/c5a9c9fd-dba3-405c-b750-d1fcb593e884)
+
+
+# Motorised Stage Upgrade
+<img width="1920" height="1280" alt="image" src="https://github.com/user-attachments/assets/879fc808-66c9-4486-ad90-61432b7ec5f7" />
+
+## Build Differences
+Under the "Motorised Linear Stage" Folder a different lead screw and base can be found for the standard linear stage. Follow the standard linear stage build instructions but replace the normal lead screw and base with the motorized versions. 
+
+## Motors
+The Motorised lead screws will directly interface with any standard 28BYJ stepper motor. The fit is designed to be tight and you may need to heat the lead screw to get it on. It is reccomended a small dot of some form of glue is used to prevent it loosening over time and with use.
+
+## Endstops
+Also provided are brackets for Cherry MX Mechanical keyswitches, but the design files are all provided in FreeCAD and anyone can design their own mount for a switch of their choice using the provided mounting holes on the base. Cherry MX switches were used as they are common and cheap but a future planned upgrade is to add a mount for the more precise and compact Omron SS-01. 
+
+## Control System
+Currently no electronics or control are provided though this is being worked on in a different repo that will be linked here when published. The 28BYJ motor is very sommon however and numerous arduino, micropython and C libraries exist to control it. Mounting solutions for darlington array style drivers and a base to contain them are provided. Pictured below are the venerable ULN2003 drivers that are commonly shipped alongside the motors, these are reccomended. 
+<img width="1920" height="1280" alt="image" src="https://github.com/user-attachments/assets/eb7c0511-ebce-4dda-820a-281dea23c6c6" />
 
 
 
